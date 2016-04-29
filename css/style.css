@@ -1,0 +1,32 @@
+.flexxy{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh ;
+    background-color: orange;
+}
+.qCon {
+    background-color: white;
+    border-radius: 15px
+}
+.colorMe {
+    padding: 20px;
+    color:orange;
+    font-family: 'Oswald',sans-serif;
+    
+}
+
+
+.btn {
+    margin-left: 2rem;
+    background-color: orange;
+    color:white;
+    font-family: 'Oswald',sans-serif;
+    width:  30rem, auto;
+}
+.btn:hover{
+    color:white;
+}
+.btn:visited{
+    color:white;
+}
