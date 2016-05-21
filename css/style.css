@@ -1,32 +1,168 @@
-.flexxy{
-    display:flex;
+.flexxy {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
     justify-content: center;
-    height: 100vh ;
+    height: auto;
+    min-height: 100vh !important;
     background-color: orange;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 2rem;
 }
+
 .qCon {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     background-color: white;
-    border-radius: 15px
+    border-radius: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 80%;
 }
+
 .colorMe {
-    padding: 20px;
-    color:orange;
-    font-family: 'Oswald',sans-serif;
-    
+    color: orange;
+    font-family: 'Oswald', sans-serif;
+}
+
+.qConInner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.qCon i {
+    font-size: 1em;
+    padding: .5em;
 }
 
 
-.btn {
-    margin-left: 2rem;
-    background-color: orange;
-    color:white;
-    font-family: 'Oswald',sans-serif;
-    width:  30rem, auto;
+.fa-quote-right {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
 }
-.btn:hover{
-    color:white;
+
+#quote-title {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    margin-right: 6rem;
 }
-.btn:visited{
-    color:white;
+
+.qConInner2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    margin-top: -3rem;
+    width:auto;
 }
+
+.icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 2rem 2rem 0 2rem;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.icons i {
+    padding: 0 2rem 0 2rem;
+}
+
+
+
+.icons a:hover i {
+    color: #000000 !important;
+    cursor: pointer;
+}
+
+.icons a:hover p {
+    color: #000000 !important;
+}
+
+.icons a:hover {
+    text-decoration: none;
+}
+#quote-source {
+    margin-right: 8rem;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+#quote-source a{
+    color:inherit;
+    text-decoration: underline;
+}
+#ps{
+    color:white;
+    font-family: Oswald, sans-serif;
+    margin-top: 1rem;
+  font-size:.5em;
+}
+#ps a{
+    color:Black;
+    text-decoration: none;
+}
+.icons p, .icons a{
+    font-size: 1em !important;
+    text-decoration: none;
+}
+h1 {
+    font-size: 1em;
+}
+#quote-title{
+    font-size: 1em;
+}
+#quote-source {
+    font-size: .5em;
+}
+#ps i{
+    color: #000000 !important;
+}
+
