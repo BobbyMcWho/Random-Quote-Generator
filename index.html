@@ -11,17 +11,31 @@
     <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>    
     <script src="js/bootstrap.min.js"></script>
 </head>
-<body class="flexxy">
-    <div class="container">
-    	<div class="container qCon">
-    		
-            <h1 class="colorMe" id="quote-content"></h1>
-            <h1 class="colorMe" id="quote-title"></h1>
-            <button class="btn" id="get-another-quote-button">QUOTE ME</button>
-            <p class="colorMe" id="quote-source"></p>
-            
-    	</div>
+ <body class="flexxy">
+    <div class="qCon colorMe">
+        <div class="qConInner"><i class="fa fa-quote-left colorMe"></i>
+            <h1 id="quote-content" class="colorMe"></h1><i class="fa fa-quote-right colorMe"></i>
+        </div>
+        <div class="qConInner2">
+            <h1 id="quote-title" class="colorMe"></h1>
+        </div>
+        <div id="quote-source" class="colorMe">
+        </div>
+        <div class="icons">
+            <div><a id="get-another-quote-button"><p class="colorMe"><i class="fa fa-refresh colorMe"></i>
+               <br> New Quote</p>
+              </a>
+            </div>
+            <div><a id="tweetButt" target="_blank"><p  class="colorMe"><i class="fa fa-twitter colorMe"></i>
+                <br>Tweet This</p>
+              </a>
+            </div>
+        </div>
+
     </div>
+    <div id="ps">Created by <a href="http://codepen.io/BobbyMcWho" target="_blank">Bobby McDonald <i class="fa fa-hand-o-left" aria-hidden="true"></i></a></div>
     <script src="js/main.js"></script>
 </body>
+    
+
 </html>
