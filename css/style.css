@@ -165,4 +165,8 @@ h1 {
 #ps i{
     color: #000000 !important;
 }
-
+@media only screen and (max-width:768px){
+  html {
+    font-size:.5rem;
+  }
+}
